@@ -23,8 +23,6 @@ export function FloatingCTAs() {
         </a>
         <a
           href={CHECKOUT_URL}
-          target="_blank"
-          rel="noopener noreferrer"
           aria-label="Comprar e-book"
           className="btn-primary group inline-flex flex-1 items-center justify-center gap-2 rounded-full px-4 py-3 text-xs font-semibold sm:text-sm"
         >
