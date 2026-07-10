@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Flame, Lock, ShieldCheck, Zap } from "lucide-react";
 import ebookAsset from "@/assets/ebook-clean.png";
 import bgFire from "@/assets/bg-fire.jpg";
+import { WHATSAPP_URL } from "@/lib/landing-data";
 
 const FEATURES = [
   "Teoria completa e objetiva",
@@ -121,7 +122,7 @@ export function Offer() {
                   COMPRAR AGORA
                 </a>
                 <a
-                  href="https://wa.me/559881595051"
+                  href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-[#25D366]/50 bg-[#25D366]/10 px-6 py-4 text-sm font-semibold text-[#25D366] transition-all hover:bg-[#25D366]/20 hover:-translate-y-0.5"

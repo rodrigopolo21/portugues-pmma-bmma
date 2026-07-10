@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ShoppingBag } from "lucide-react";
 import { KIRVANO_CHECKOUT_URL } from "./Offer";
+import { WHATSAPP_URL } from "@/lib/landing-data";
 
 export function FloatingCTAs() {
   return (
@@ -12,7 +13,7 @@ export function FloatingCTAs() {
     >
       <div className="flex w-full max-w-md items-center gap-2 rounded-full glass-strong p-1.5 shadow-elegant sm:max-w-lg">
         <a
-          href="https://wa.me/559881595051"
+          href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Falar no WhatsApp"

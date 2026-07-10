@@ -160,3 +160,9 @@ export const FAQ = [
 
 export const CTA_PRIMARY_LABEL = "QUERO GARANTIR MEU EBOOK";
 export const CTA_SECONDARY_LABEL = "VER O CONTEÚDO";
+
+// WhatsApp — mensagem pré-preenchida ao clicar (abre o app com o texto pronto).
+export const WHATSAPP_NUMBER = "559881595051";
+export const WHATSAPP_MESSAGE =
+  "Olá, Professor Maurílio! Vim pelo site e tenho interesse no e-book de Português para os concursos da PMMA e BMMA 2026. Pode me passar mais informações?";
+export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
