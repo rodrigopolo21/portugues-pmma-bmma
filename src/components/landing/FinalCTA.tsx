@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { KIRVANO_CHECKOUT_URL } from "./Offer";
+import { CHECKOUT_URL } from "@/lib/landing-data";
 
 export function FinalCTA() {
   return (
@@ -32,7 +32,7 @@ export function FinalCTA() {
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href={KIRVANO_CHECKOUT_URL}
+              href={CHECKOUT_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary group inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-sm font-semibold tracking-wide"

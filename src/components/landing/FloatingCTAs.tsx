@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ShoppingBag } from "lucide-react";
-import { KIRVANO_CHECKOUT_URL } from "./Offer";
-import { WHATSAPP_URL } from "@/lib/landing-data";
+import { CHECKOUT_URL, WHATSAPP_URL } from "@/lib/landing-data";
 
 export function FloatingCTAs() {
   return (
@@ -23,7 +22,7 @@ export function FloatingCTAs() {
           WhatsApp
         </a>
         <a
-          href={KIRVANO_CHECKOUT_URL}
+          href={CHECKOUT_URL}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Comprar e-book"

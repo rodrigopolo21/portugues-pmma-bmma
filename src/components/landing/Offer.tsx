@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Flame, Lock, ShieldCheck, Zap } from "lucide-react";
 import ebookAsset from "@/assets/ebook-clean.png";
 import bgFire from "@/assets/bg-fire.jpg";
-import { WHATSAPP_URL } from "@/lib/landing-data";
+import { CHECKOUT_URL, WHATSAPP_URL } from "@/lib/landing-data";
 
 const FEATURES = [
   "Teoria completa e objetiva",
@@ -12,8 +12,6 @@ const FEATURES = [
   "Linguagem simples e direta, sem enrolação",
   "Assuntos mais cobrados no edital, organizados em sequência lógica",
 ];
-
-export const KIRVANO_CHECKOUT_URL = "#"; // TODO: substituir pelo link real da Kirvano
 
 export function Offer() {
   return (
@@ -113,7 +111,7 @@ export function Offer() {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
-                  href={KIRVANO_CHECKOUT_URL}
+                  href={CHECKOUT_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary group inline-flex flex-1 items-center justify-center gap-2 rounded-full px-6 py-4 text-sm font-semibold tracking-wide"
