@@ -3,7 +3,7 @@ import { ArrowRight, ChevronDown, Sparkles } from "lucide-react";
 import { useRef, type MouseEvent } from "react";
 import ebookAsset from "@/assets/ebook-clean.png";
 import heroBg from "@/assets/hero-bg.jpg";
-import { CTA_PRIMARY_LABEL, CTA_SECONDARY_LABEL } from "@/lib/landing-data";
+import { CHECKOUT_URL, CTA_PRIMARY_LABEL, CTA_SECONDARY_LABEL } from "@/lib/landing-data";
 
 const CHIPS = [
   "Material Digital",
@@ -152,7 +152,7 @@ export function Hero() {
             className="mt-8 flex flex-col gap-3 sm:flex-row"
           >
             <a
-              href="#cta-final"
+              href={CHECKOUT_URL}
               className="btn-primary group inline-flex items-center justify-center gap-2 rounded-full px-7 py-4 text-sm font-semibold tracking-wide"
             >
               {CTA_PRIMARY_LABEL}
