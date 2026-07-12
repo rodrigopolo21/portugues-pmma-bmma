@@ -161,8 +161,8 @@ export const FAQ = [
 export const CTA_PRIMARY_LABEL = "QUERO GARANTIR MEU EBOOK";
 export const CTA_SECONDARY_LABEL = "VER O CONTEÚDO";
 
-// Checkout — link de compra direta (Kiwify).
-export const CHECKOUT_URL = "https://pay.kiwify.com.br/8C687ZC";
+// Checkout — link de compra direta (Kirvano).
+export const CHECKOUT_URL = "https://pay.kirvano.com/1851bc1c-7891-4c79-8e93-38e10680e4cf";
 
 // WhatsApp — mensagem pré-preenchida ao clicar (abre o app com o texto pronto).
 export const WHATSAPP_NUMBER = "559881595051";
