@@ -82,7 +82,7 @@ export function Offer() {
               <div className="mt-6 flex items-baseline gap-3">
                 <span className="text-sm text-muted-foreground line-through">De R$ 197,00</span>
                 <span className="rounded-full bg-danger/20 px-2 py-0.5 text-[11px] font-semibold text-danger-glow">
-                  -65%
+                  -80%
                 </span>
               </div>
               <p className="mt-1 text-xs uppercase tracking-[0.25em] text-primary-glow">
@@ -91,7 +91,7 @@ export function Offer() {
               <div className="mt-1 flex items-end gap-2">
                 <span className="font-display text-2xl font-semibold text-white">R$</span>
                 <span className="font-display text-7xl font-semibold leading-none gradient-text">
-                  69
+                  39
                 </span>
                 <span className="font-display text-3xl font-semibold text-white">,90</span>
                 <span className="pb-2 text-sm text-muted-foreground">à vista</span>
